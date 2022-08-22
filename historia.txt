@@ -6,3 +6,28 @@ viviendo en Morelos
 Hoy hablaremos de su historia.
 
 Cuando sale en camara parece alto pero la verdad ni es tan alto.
+
+Ahora se encuentra aprendiendo git y github, lo aprendido en ester curso
+es que git almacena o trabaja con archivos de texto plano, tambien
+existen varios comando para empezar a trabaja con git:
+° git init: Es para inicializar el archivo git en el cual vamos a 
+almacenar todos los cambios que vayamos realizando.
+°git status: Con el comando git status nos sirve para poder checar 
+los cambios que se realizaran y poder enviarlos al repositorio.
+°git add . : Este comando es para poder agregar los cambios y pasarlos 
+a la memoria Ram, antes de mandarlos al repositorio.
+°git commit -m "Aqui va el nombre o descripción del cambio: Con este comando podremos enviar los cambios al repositoiro
+y actualizar el proyecto, tambien tendremos que darle al cambio un nombre
+o una descripcion del cambio que se realizo.
+°cat nombre del archivo.txt: Nos mostrará lo que se encuentra dentro del
+archivo que seleccionamos.
+°git log nombre del archivo.txt: Nos mostrará todos los cambios que se han
+realizado.
+°git show nombre del archivo.txt: Nos mostrará el ultimo cambio mas 
+reciente
+°git diff Aqui va el codigo del commit Aqui tambien va el codigo del comit:
+Nos mostrara las diferencias que haya entre dos cambios que se hayan
+realizado.
+git reset aqui va el codigo del commit --hard o soft: El hard nos
+regresara al cambio que queramos borrando el resto, el soft regresa a la
+version anterior y sigue disponible el cambio.
