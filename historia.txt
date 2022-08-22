@@ -31,3 +31,9 @@ realizado.
 git reset aqui va el codigo del commit --hard o soft: El hard nos
 regresara al cambio que queramos borrando el resto, el soft regresa a la
 version anterior y sigue disponible el cambio.
+°git stat: Nos aparecerá los cambios especificos, en cuales archivos apartir
+del commit.
+°git checkout ID del cambio que queremos ver como era originalmente nombre 
+del archivo: nos mostrará el archivo como era antes
+°git checkout master: Vuelve a la versión master, la versión mas
+actualizada.
