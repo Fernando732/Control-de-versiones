@@ -37,3 +37,5 @@ del commit.
 del archivo: nos mostrará el archivo como era antes
 °git checkout master: Vuelve a la versión master, la versión mas
 actualizada.
+Para mantener un checkout de manera permanente se tiene que relizar
+commit para que se apliquen los cambios y quede como el mas actualizado.
