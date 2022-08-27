@@ -37,10 +37,12 @@ del commit.
 °git checkout ID del cambio que queremos ver como era originalmente nombre 
 del archivo: nos mostrará el archivo como era antes
 °git branch nombre de la rama a crear: Se utiliza para crear una rama.
+°git branch: Nos mostrará las ramas que se encuentrana creadas dentro del proyecto. 
 °git checkout master: Vuelve a la versión master, la versión mas
 actualizada.
 Para mantener un checkout de manera permanente se tiene que relizar
 commit para que se apliquen los cambios y quede como el mas actualizado.
+°git merge 
 
 °git rm --cached: Elimina los archivos de nuestro repositorio local y del 
 área de staging, pero los mantiene en nuestro disco duro. Básicamente le 
