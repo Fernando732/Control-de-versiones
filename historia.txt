@@ -47,6 +47,16 @@ commit para que se apliquen los cambios y quede como el mas actualizado.
 con el master y de esa manera
 fusionar o combinarlos.
 
+*******Comenzando con Github*******
+°git remote add origin URL del repositotio a clonar: Este comando nos 
+permite clonara un repositorio de GitHub mediante una URL
+°git remote -v: Nos mostrará orin a los que le podremos hacer fetch y
+push.
+°git push origin master: Nos permiye que enviar al origen la rama master
+pero primero se tiene realizar el merge y el fetch (pull).
+°git pull origin master: Este comando actualizará el orin remotp en caso de
+que se hayan realizado cambios del repositorio remoto y esto se tiene que hacer
+nates de realizar un push.
 °git rm --cached: Elimina los archivos de nuestro repositorio local y del 
 área de staging, pero los mantiene en nuestro disco duro. Básicamente le 
 dice a Git que deje de trackear el historial de cambios de estos archivos,
