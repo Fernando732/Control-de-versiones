@@ -57,6 +57,19 @@ pero primero se tiene realizar el merge y el fetch (pull).
 °git pull origin master: Este comando actualizará el orin remotp en caso de
 que se hayan realizado cambios del repositorio remoto y esto se tiene que hacer
 nates de realizar un push.
+
+Para poder clonar un repositorio de Github mediante HTTP lo que se realiza es 
+es ir a la pestaña de codigo en la pagina de GitHub, escogemos la opción
+de HTTP, posteriormente copiamos la URL que nos muestra. Luego en el 
+gitbash podremos el siguinete comando:
+°git remote add origin URL copiado de la pagina de GitHub: Este
+comando nos permitirá clonara un repositorio de GitHub mediante HTTP.
+°git remote: Nos mostrará el origin
+°git remote -v: Nos mostrará un origin para hacer fetch (Traernos cosas) y
+push(enviar cosas).
+°git push origin master: Nos sirve para poder enviar la rama origin a master.
+°git pull origin master: Nos sirve para poder traer las actualizaciones 
+del repositorio que clonamos.Este comando es un fetch y merge juntos.
 °git rm --cached: Elimina los archivos de nuestro repositorio local y del 
 área de staging, pero los mantiene en nuestro disco duro. Básicamente le 
 dice a Git que deje de trackear el historial de cambios de estos archivos,
